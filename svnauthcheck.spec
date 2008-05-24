@@ -1,5 +1,5 @@
 %define	name	svnauthcheck
-%define	version	0.10.5
+%define	version	0.10.6
 %define	release	%mkrel 1
 
 Name:		%{name}
@@ -9,7 +9,7 @@ Summary:    Virtual Machine Viewer
 License:    GPL
 Group:      Graphical desktop/GNOME
 URL:        https://svn.id.ethz.ch/docs/svnauthcheck.html
-Source:     https://svn.id.ethz.ch/files/%{name}/%{name}-%{version}.tar.bz2
+Source:     https://svn.id.ethz.ch/files/%{name}-%{version}.tar.bz2
 BuildRequires:  flex
 BuildRequires:  bison
 BuildRoot:      %{_tmppath}/%{name}-%{version}
