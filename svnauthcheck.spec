@@ -1,13 +1,13 @@
 %define	name	svnauthcheck
 %define	version	0.10.6
-%define	release	%mkrel 1
+%define	release	%mkrel 2
 
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-Summary:    Virtual Machine Viewer
-License:    GPL
-Group:      Graphical desktop/GNOME
+Summary:    Tool to check the syntax of subversion acl file
+License:    GPLv2+
+Group:      Development/Other 
 URL:        https://svn.id.ethz.ch/docs/svnauthcheck.html
 Source:     https://svn.id.ethz.ch/files/%{name}-%{version}.tar.bz2
 BuildRequires:  flex
