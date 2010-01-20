@@ -1,5 +1,5 @@
 %define	name	svnauthcheck
-%define	version	1.0.3
+%define	version	1.0.4
 %define	release	%mkrel 1
 
 Name:		%{name}
@@ -10,7 +10,6 @@ License:    GPLv2+
 Group:      Development/Other 
 URL:        https://svn.id.ethz.ch/docs/svnauthcheck.html
 Source:     https://svn.id.ethz.ch/files/%{name}-%{version}.tar.bz2
-Patch:      svnauthcheck-1.0.2-fix-format-errors.patch
 BuildRequires:  flex
 BuildRequires:  bison
 BuildRoot:      %{_tmppath}/%{name}-%{version}
@@ -22,7 +21,6 @@ to manage the access control to the repository itself.
 
 %prep
 %setup -q
-%patch -p 1
 
 %build
 %configure2_5x
