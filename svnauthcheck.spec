@@ -1,5 +1,5 @@
 %define	name	svnauthcheck
-%define	version	1.0.9
+%define	version	1.0.11
 %define	release	%mkrel 1
 
 Name:		%{name}
