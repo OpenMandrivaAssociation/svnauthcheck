@@ -4,7 +4,7 @@
 
 Name:		%{name}
 Version:	%{version}
-Release:	%{release}
+Release:	1
 Summary:    Tool to check the syntax of subversion acl file
 License:    GPLv2+
 Group:      Development/Other 
