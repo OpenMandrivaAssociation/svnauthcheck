@@ -10,6 +10,11 @@ License:    GPLv2+
 Group:      Development/Other 
 URL:        https://svn.id.ethz.ch/docs/svnauthcheck.html
 Source:     https://svn.id.ethz.ch/files/%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  flex
 BuildRequires:  bison
 BuildRoot:      %{_tmppath}/%{name}-%{version}
